@@ -1,11 +1,13 @@
 
-// import './App.css';
+import './App.css';
 
 function App() {
   return (
-    <div>
-     
-    </div>
+    <header id='cabecalho'>
+      <div id='logo'>
+        
+      </div>
+    </header>
   );
 }
 
