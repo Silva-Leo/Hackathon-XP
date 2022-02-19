@@ -1,0 +1,85 @@
+// Arquivo com as configurações do design system - global
+
+
+// Escala de preto
+
+$blackScale1:#121212;
+$blackScale2:#2A2A2A;
+$blackScale3:#414141;
+$blackScale4:#5A5A5A;
+$blackScale5:#717171;
+$blackScale6:#888888;
+$blackScale7:#A0A0A0;
+$blackScale8:#B8B8B8;
+$blackScale9:#D0D0D0;
+$blackScale10:#E8E8E8;
+
+// Escala de amarelo
+
+$yellowScale1:#F7CF47;
+$yellowScale2:#BA9932;
+$yellowScale3:#DCB73D;
+$yellowScale4:#FCEBAB;
+$yellowScale5:#D08A31;
+
+// Fontes
+
+$Font1: 'Roboto Slab', serif;
+$Font2:'Raleway', sans-serif;
+
+// Mixins
+
+@mixin TextH1{
+    font-family: $Font1;
+    font-style: normal;
+    font-weight:lighter;
+    font-size: 62px;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+}
+
+@mixin TextH2{
+    font-family: $Font2;
+    font-style: normal;
+    font-weight: lighter;
+    font-size: 55px;
+    line-height: 120%;
+    letter-spacing: -0.01em;
+}
+
+@mixin TextH3{
+    font-family: $Font2;
+    font-style: normal;
+    font-weight:bold;
+    font-size: 44px;
+    line-height: 120%;
+}
+
+@mixin TextH4{
+    font-family: $Font2;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+@mixin textH5{
+    
+}
+
+@mixin textH6{
+    
+}
+
+@mixin TextParagraf{
+    font-family: $Font2;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 150%;
+    // letter-spacing: 0.02em;
+}
+
+                         
+
+
