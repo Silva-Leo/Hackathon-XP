@@ -8,7 +8,7 @@ export default function Graph() {
         <>
             <div className='graphContainer'>
                 <div className='legendaContainer'>
-                    <p>Saldo pro Investimento</p>
+                    <p>Saldo por Investimento</p>
                     <div className='legendaLine'>
                         <div className='lineInv'></div> 
                         <div className='lineTextInv'>Fundo de Invenstimento</div>
