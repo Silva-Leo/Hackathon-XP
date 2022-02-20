@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from "react-router-dom";
 import HeaderLogo from '../../assets/img/HeaderLogo.svg';
 import ClientAvatar from '../../assets/img/ClientAvatar.svg';
 import WomanAvatar from '../../assets/img/WomanAvatar.jpg';
@@ -14,14 +14,11 @@ export default function Header() {
             </div>
 
             <nav id='navBarLista'>
-                <li>Enriquecer</li>
-                <li>Descobrir</li>
-                <li className='follow'>
-                    <a href='#'>Acompanhar</a>
-                    <div className='arrow'></div> 
+                <li className='follow'><Link to="/enriquecer">Enriquecer</Link></li>
+                <li className='follow'><Link to="/descobrir">Descobrir</Link></li>
+                <li className='follow'><Link to="/acompanhar">Acompanhar</Link><div className='arrow'></div> 
                 </li>
-                
-                <li>Histórico</li>
+                <li className='follow'><Link to="/historico">Histórico</Link></li>
                 <li  className='avatar'>
                     <a href='#'>Laura Assis</a>
                     <img src={WomanAvatar} alt='avatar'></img> 
