@@ -1,0 +1,110 @@
+@import "../../Styles/global.scss";
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+
+  #tituloDescobrir {
+    @include TextH3;
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
+
+  #sub-tituloDescobrir {
+    @include TextH4;
+    font-weight: lighter;
+    font-size: 18px;
+    letter-spacing: 0.1%;
+    margin-bottom: 5%;
+    width: 75%;
+    text-align: center;
+  }
+
+  #paragrafoDescobrir {
+    // @include TextParagraf();
+    font-family: $Font2;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 100%;
+    margin-bottom: 3%;
+  }
+
+  .botoes {
+    display: flex;
+    flex-direction: row;
+    width: 88%;
+    margin-left: 25%;
+    margin-bottom: 3%;
+
+    .contained {
+      background-color: $blackScale10;
+      color: $blackScale1;
+      margin-left: 5%;
+      width: 140px;
+      &:hover {
+        background-color: $blackScale7;
+      }
+    }
+  }
+
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  height: 90vh;
+  section {
+    width: 50%;
+    margin-left: 5%;
+    .opcoes {
+      justify-content: flex-start;
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      margin-bottom: 6%;
+    }
+
+    #botaoBusca{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        margin-bottom: 6%;
+        margin-top: 8%;
+    }
+    .outlined {
+        width: 200px;
+      color: $blackScale1;
+      border-color: $yellowScale1;
+      background-color: $yellowScale1;
+      &:hover {
+        background-color: $yellowScale3;
+        border-color: $blackScale1;
+      }
+    }
+    #mapa{
+        height: 80%;
+        margin-left: 6%;
+    }
+  }
+}
+
+.imagens{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+    #img1{
+        height: 180;
+        width: 80%;
+        margin-bottom: 5%;
+    }
+    #img2{
+        height: 180;
+        width: 80%;
+        margin-bottom: 5%;
+    }
+}

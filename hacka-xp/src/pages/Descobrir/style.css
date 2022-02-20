@@ -14,7 +14,7 @@
           justify-content: space-between;
 }
 
-.container #titulo {
+.container #tituloDescobrir {
   font-family: "Roboto Slab", serif;
   font-style: normal;
   font-weight: bold;
@@ -24,7 +24,7 @@
   margin-bottom: 2%;
 }
 
-.container #sub-titulo {
+.container #sub-tituloDescobrir {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -34,9 +34,11 @@
   font-size: 18px;
   letter-spacing: 0.1%;
   margin-bottom: 5%;
+  width: 75%;
+  text-align: center;
 }
 
-.container #paragrafo {
+.container #paragrafoDescobrir {
   font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -69,48 +71,88 @@
   background-color: #A0A0A0;
 }
 
-.container .form-control {
-  display: block;
-  width: 60%;
-  height: 2.4rem;
-  padding: 0.375rem 0.75rem;
-  color: #A0A0A0;
-  background-color: #E8E8E8;
-  border: 0;
-  border-radius: 0.25rem;
-  -webkit-transition: border 0.8s ease-in-out;
-  transition: border 0.8s ease-in-out;
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+  height: 90vh;
 }
 
-.container .form-control:focus {
-  border: 1px solid #E8E8E8;
-  outline: 0;
+.main section {
+  width: 50%;
+  margin-left: 5%;
 }
 
-.container .outlined {
-  margin-top: 11%;
+.main section .opcoes {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-bottom: 6%;
+}
+
+.main section #botaoBusca {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 6%;
+  margin-top: 8%;
+}
+
+.main section .outlined {
+  width: 200px;
   color: #121212;
   border-color: #F7CF47;
   background-color: #F7CF47;
 }
 
-.container .outlined:hover {
+.main section .outlined:hover {
   background-color: #DCB73D;
   border-color: #121212;
 }
 
-.container hr {
-  margin-top: 2%;
-  margin-bottom: 4%;
-  width: 85%;
-  height: 0.1%;
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.75)), color-stop(white), to(rgba(0, 0, 0, 0.75)));
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), white, rgba(0, 0, 0, 0.75));
-  opacity: 0.2;
+.main section #mapa {
+  height: 80%;
+  margin-left: 6%;
 }
 
-.container img {
+.imagens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5%;
+}
+
+.imagens #img1 {
+  height: 180;
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+.imagens #img2 {
+  height: 180;
   width: 80%;
   margin-bottom: 5%;
 }
