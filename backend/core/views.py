@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from get_jsons import get_bank
+from .get_jsons import get_bank
 
 
 def home_view(request):
