@@ -13,6 +13,8 @@ import Home from './pages/Home'
 
 import Enriquecer from './pages/Enriquecimento';
 
+import Acompanhar from './pages/Acompanhamento';
+
 function App() {
   return (
     <>
@@ -23,7 +25,12 @@ function App() {
             <Route path="/enriquecer" element={<Enriquecer />} />
 
             <Route path="/descobrir" element={<Descobrir />} />
-           {/* <Route path="/acompanhar" element={<Acompanhar />} />
+            
+            <Route path="" element={<Home />} />
+
+            <Route path="/acompanhar" element={<Acompanhar />} />
+            
+           {/* 
 
             <Route path="" element={<Home />} />
             {/* <Route path="/descobrir" element={<Descobrir />} />
