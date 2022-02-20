@@ -1,13 +1,13 @@
 import React from "react";
-import Header from './components/Header/header.js'
-import Footer from './components/Footer/footer'
+import Header from '../Header/header';
+import Footer from "../Footer/footer";
 
 
 function Layout ({children}) {
     return (
         <>
             <Header/>
-            {children}
+            {children}  
             <Footer/>
         </>
     )
