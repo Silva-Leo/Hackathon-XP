@@ -17,17 +17,15 @@
         height: 28px;
         top: calc(50% - 28px/2);
 
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 18px;
+        font-size: 15px;
         line-height: 28px;
-        /* identical to box height, or 156% */
 
 
         color: #000000;
 
-        /* Inside auto layout */
 
         flex: none;
         order: 0;
@@ -87,9 +85,9 @@
 }
 
 .lineTextInv {
-    width: 120px;
+    width: 130px;
     margin-left: 10px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -97,11 +95,10 @@
 }
 
 .lineTextVar {
-    width: 120px;
-    width: 75px;
+    width: 85px;
     margin-left: 10px;
     margin-right: 15px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -111,7 +108,7 @@
 .lineTextFixa {
     width: 60px;
     margin-left: 10px;
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -143,10 +140,10 @@
         left: 10px;
         top: calc(50% - 22px/2);
 
-        font-family: Roboto;
+        font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 22px;
 
 
