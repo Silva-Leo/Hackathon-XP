@@ -1,0 +1,16 @@
+.clientsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 80%;
+    height: 445px;
+    left: 10%;
+    top: 830px;
+
+    img {
+        width: 100%;
+    }
+}
