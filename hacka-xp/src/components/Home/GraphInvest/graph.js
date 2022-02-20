@@ -1,4 +1,7 @@
 import React from 'react';
+
+import Dots from '../../../assets/img/home/dots.png'
+
 import './graph.scss'
 export default function Graph() {
     return (
@@ -22,7 +25,7 @@ export default function Graph() {
                         </div>
 
                         <div className='pointContainer'>
-                            <li className='point'></li>
+                            <img src={Dots}></img>
                         </div>
                     </div>
                 </div>

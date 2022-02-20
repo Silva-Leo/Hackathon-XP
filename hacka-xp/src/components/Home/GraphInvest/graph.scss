@@ -131,12 +131,6 @@
     left: 581px;
     top: 0px;
 
-    background: #FFFFFF;
-
-    border: 1px solid #ECE9F1;
-    box-sizing: border-box;
-    border-radius: 4px;
-
     flex: none;
     order: 3;
     flex-grow: 0;
@@ -174,32 +168,18 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 8px;
 
     position: static;
-    width: 30px;
+    width: 45px;
     height: 30px;
-    left: 687px;
-    top: 0px;
-
-    background: #FFFFFF;
-
-    border: 1px solid #ECE9F1;
-    box-sizing: border-box;
-    border-radius: 4px;
 
     flex: none;
     order: 4;
     flex-grow: 0;
     margin: 0px 30px;
 
-    .point {
-        position: absolute;
-        left: 8.33%;
-        right: 75%;
-        top: 41.67%;
-        bottom: 41.67%;
-
-        border: 1.16667px solid #414141;
+    img {
+        width: 30px;
     }
+
 }
