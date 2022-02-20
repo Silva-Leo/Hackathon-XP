@@ -51,11 +51,7 @@ def get_bank():
     return data
 
 
-def user_name():
-    name = get_main("/openbanking/users?limit")
+def get_user():
+    name = get_main("/openbanking/users?limi=")
     return name
 
-
-def user_info():
-    info = get_main(f"/users/{user_name()}")
-    return info

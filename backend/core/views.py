@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .get_jsons import get_bank
+from .get_jsons import get_bank, get_user
 
 
 def home_view(request):
@@ -14,7 +14,7 @@ def bank_view(request):
 
 
 def user_view(request):
-    data = get_bank()
+    data = get_user()
 
     return HttpResponse(data)
 
