@@ -16,11 +16,16 @@ export default function Header() {
             <nav id='navBarLista'>
                 <li>Enriquecer</li>
                 <li>Descobrir</li>
-                <li>Acompanhar</li>
+                <li className='follow'>
+                    <a href='#'>Acompanhar</a>
+                    <div className='arrow'></div> 
+                </li>
+                
                 <li>Histórico</li>
                 <li  className='avatar'>
-                <a href='#'>Laura Assis</a>
+                    <a href='#'>Laura Assis</a>
                     <img src={WomanAvatar} alt='avatar'></img> 
+                    <div className='arrow'></div>
                 </li>
             </nav>
         </header>

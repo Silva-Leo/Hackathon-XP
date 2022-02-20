@@ -33,11 +33,10 @@ header {
 
 .avatar {
     display: flex;
-    margin-left: 120px;
     align-items: center;
     img {
-        width: 40px;
-        height: 40px;
+        width: 35px;
+        height: 35px;
         border-radius: 90%;
     }
 
@@ -47,3 +46,24 @@ header {
         margin-right: 20px;
     }
 }
+
+.follow {
+    display: flex;
+    align-items: center;
+    a {
+        text-decoration: none;
+        color: $blackScale10;
+    }
+}
+
+.arrow {
+    display: flex;
+    padding: 06px;
+    margin-left: 15px;
+    box-shadow: 1px -1px 0 1px $yellowScale1 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(315deg);
+}
+
+
