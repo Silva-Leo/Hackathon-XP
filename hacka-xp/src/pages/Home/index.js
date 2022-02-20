@@ -6,10 +6,10 @@ import './style.scss';
 
 export default function Home() {
     return (
-        <>
+        <main className='container'>
             <InfoBoxes/>
             <Graph/>
             <Clients/>
-        </>
+        </main>
     );
 }
