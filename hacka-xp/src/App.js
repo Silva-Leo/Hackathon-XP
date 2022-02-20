@@ -1,5 +1,5 @@
 import './App.css';
-import Button from './components/Botao/botao'
+import Footer from './components/Footer/footer'
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
      <div className="teste2">
      adnaosdnaiodnaona
     </div>
-    <Button/>
+    <Footer/>
     </>
   );
 }

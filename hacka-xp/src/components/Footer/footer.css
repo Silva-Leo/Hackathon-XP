@@ -1,0 +1,64 @@
+.footer {
+  height: 250px;
+  width: 100vw;
+  background-color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column wrap;
+          flex-direction: column wrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.footer .logoImg {
+  width: 20%;
+  height: 100%;
+  padding-top: 25px;
+}
+
+.footer .logoImg img {
+  height: 70px;
+}
+
+.footer .sobreFooter {
+  width: 20%;
+  height: 100%;
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 230%;
+}
+
+.footer .sobreFooter a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer .paginasFooter {
+  width: 20%;
+  height: 100%;
+  padding-top: 25px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  line-height: 230%;
+}
+
+.footer .paginasFooter a {
+  text-decoration: none;
+  color: #fff;
+}
+/*# sourceMappingURL=footer.css.map */

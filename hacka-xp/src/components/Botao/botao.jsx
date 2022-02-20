@@ -1,7 +1,7 @@
 import React from 'react'
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
-import "./botao.scss"
+import "./botao.css"
 
 export default function BasicButtons() {
   return (

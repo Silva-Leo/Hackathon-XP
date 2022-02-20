@@ -1,0 +1,48 @@
+@import "../../Styles/global.scss";
+
+.footer {
+  height: 250px;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  flex-direction: column wrap;
+  justify-content: space-evenly;
+
+  .logoImg {
+    width: 20%;
+    height: 100%;
+    padding-top: 25px;
+
+    img {
+      height: 70px;
+    }
+  }
+
+  .sobreFooter {
+    width: 20%;
+    height: 100%;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    line-height: 230%;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+
+  .paginasFooter {
+    width: 20%;
+    height: 100%;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: column;
+    line-height: 230%;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+    }
+  }
+}
