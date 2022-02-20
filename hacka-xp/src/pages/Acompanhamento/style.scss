@@ -1,0 +1,53 @@
+@import "../../Styles/global.scss";
+
+.title {
+    margin-top: 2%;
+    text-align: center;
+
+    .subtitle {
+        margin-top: 1%;
+    }
+}
+
+#titleText {
+    @include TextH3;
+}
+
+.box {
+    display: flex;
+    width: 100%;
+    margin-top: 4%;
+
+    img {
+        margin: 0 auto;
+        display: flex;
+        width: 80%;
+    }
+}
+
+.graphs {
+    margin: 0 auto;
+    width: 80%;
+
+    img {
+        width: 33.3%;
+    }
+}
+
+.searchContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+    .search {
+        margin: 0 auto;
+        width: 80%;
+    }
+
+    .navigate {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    margin-bottom: 10%;
+}
