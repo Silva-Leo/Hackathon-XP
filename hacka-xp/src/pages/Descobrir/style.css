@@ -1,0 +1,159 @@
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container #tituloDescobrir {
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 44px;
+  line-height: 120%;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+.container #sub-tituloDescobrir {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 150%;
+  font-weight: lighter;
+  font-size: 18px;
+  letter-spacing: 0.1%;
+  margin-bottom: 5%;
+  width: 75%;
+  text-align: center;
+}
+
+.container #paragrafoDescobrir {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 100%;
+  margin-bottom: 3%;
+}
+
+.container .botoes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 88%;
+  margin-left: 25%;
+  margin-bottom: 3%;
+}
+
+.container .botoes .contained {
+  background-color: #E8E8E8;
+  color: #121212;
+  margin-left: 5%;
+  width: 140px;
+}
+
+.container .botoes .contained:hover {
+  background-color: #A0A0A0;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100vw;
+  height: 90vh;
+}
+
+.main section {
+  width: 50%;
+  margin-left: 5%;
+}
+
+.main section .opcoes {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 6%;
+}
+
+.main section #botaoBusca {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 6%;
+  margin-top: 8%;
+}
+
+.main section .outlined {
+  width: 200px;
+  color: #121212;
+  border-color: #F7CF47;
+  background-color: #F7CF47;
+}
+
+.main section .outlined:hover {
+  background-color: #DCB73D;
+  border-color: #121212;
+}
+
+.main section #mapa {
+  height: 80%;
+  margin-left: 6%;
+}
+
+.imagens {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 5%;
+}
+
+.imagens #img1 {
+  height: 180;
+  width: 80%;
+  margin-bottom: 5%;
+}
+
+.imagens #img2 {
+  height: 180;
+  width: 80%;
+  margin-bottom: 5%;
+}
+/*# sourceMappingURL=style.css.map */

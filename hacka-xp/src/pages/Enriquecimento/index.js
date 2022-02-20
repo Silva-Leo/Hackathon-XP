@@ -2,8 +2,6 @@ import React from 'react';
 import './style.css';
 import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
-import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
 import ButtonBasic from '../../components/Botao/botao';
 import Cards from '../../assets/img/Page-enriquecer/Frame 53.png'
 import Tabela from '../../assets/img/Page-enriquecer/Frame 81.png'
@@ -19,7 +17,7 @@ export default function Enriquecimento() {
                 <Stack direction="row">
                     <Button className='contained' variant="contained">por CFP</Button>
                     <Button className='contained' variant="contained">por CNPJ</Button>
-                    <Button className='contained' variant="contained">por ..</Button>
+                    <Button className='contained' variant="contained">por Arquivo</Button>
                 </Stack>
             </div>
 
