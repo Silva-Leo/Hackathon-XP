@@ -1,0 +1,71 @@
+@import "../../Styles/global.scss";
+
+.footer {
+  height: 350px;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  position:absolute;
+	bottom:0;
+
+
+  .logoImg {
+    height: 35%;
+    padding-top: 3%;
+    padding-left: 5%;
+    flex-grow: 1;
+
+    img {
+      height: 50px;
+    }
+  }
+
+  .sobreFooter {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    line-height: 200%;
+    height: 35%;
+    flex-grow: 1;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 12px;
+    }
+  }
+
+  .paginasFooter {
+    padding-top: 3%;
+    display: flex;
+    flex-direction: column;
+    line-height: 200%;
+    flex-grow:4;
+    height: 35%;
+
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 12px;
+    }
+  }
+
+  hr{
+    margin-top: 2%;
+    width: 85%;
+    height: 0.1%;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.75), rgb(255, 255, 255), rgba(0, 0, 0, 0.75));
+    opacity: 0.2;
+  }
+  p{
+    width: 24%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+
+}
