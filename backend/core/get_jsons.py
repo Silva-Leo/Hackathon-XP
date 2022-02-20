@@ -28,7 +28,7 @@ def access_token():
     return [dev, token]
 
 
-def get_main():
+def get_main(url):
     conn = http.client.HTTPSConnection("openapi.xpi.com.br")
 
     payload = ""
@@ -38,9 +38,24 @@ def get_main():
         'Authorization': "Bearer " + str(access_token()[1])
     }
 
-    conn.request("GET", "/openbanking/banks?limit", payload, headers)
+    conn.request("GET", url, payload, headers)
 
     res = conn.getresponse()
     data = res.read()
 
     return json.loads(data)
+
+
+def get_bank():
+    data = get_main("/openbanking/banks?limit")
+    return data
+
+
+def user_name():
+    name = get_main("/openbanking/users?limit")
+    return name
+
+
+def user_info():
+    info = get_main(f"/users/{user_name()}")
+    return info
