@@ -6,7 +6,11 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 
 
+
 import Descobrir from './pages/Descobrir';
+
+import Home from './pages/Home'
+
 import Enriquecer from './pages/Enriquecimento';
 
 function App() {
@@ -17,10 +21,16 @@ function App() {
           <Routes>
   
             <Route path="/enriquecer" element={<Enriquecer />} />
+
             <Route path="/descobrir" element={<Descobrir />} />
            {/* <Route path="/acompanhar" element={<Acompanhar />} />
+
+            <Route path="" element={<Home />} />
+            {/* <Route path="/descobrir" element={<Descobrir />} />
+            <Route path="/acompanhar" element={<Acompanhar />} />
+
             <Route path="/historico" element={<Historico />} />
-            <Route path="" element={<Home />} /> */}
+             */}
           </Routes>
         </Layout>
       </BrowserRouter>
