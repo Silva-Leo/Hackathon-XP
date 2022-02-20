@@ -20,6 +20,8 @@ export default function Footer() {
           <a href="#">Acompanhamento de usuários</a>
           <a href="#">Perfil</a>
         </div>
+        <hr />
+        <p> O OPEN2B foi criado no <b>Hackathon XP 2022</b> para o tema de <b>Open Finance B2B</b></p>
         
       </section>
     </>

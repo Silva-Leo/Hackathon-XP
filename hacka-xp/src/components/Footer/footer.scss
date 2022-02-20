@@ -1,48 +1,68 @@
 @import "../../Styles/global.scss";
 
 .footer {
-  height: 250px;
+  height: 350px;
   width: 100vw;
   background-color: black;
   display: flex;
-  flex-direction: column wrap;
-  justify-content: space-evenly;
+  flex-flow: row wrap;
+  justify-content: space-around;
 
   .logoImg {
-    width: 20%;
-    height: 100%;
-    padding-top: 25px;
+    height: 35%;
+    padding-top: 3%;
+    padding-left: 5%;
+    flex-grow: 1;
 
     img {
-      height: 70px;
+      height: 50px;
     }
   }
 
   .sobreFooter {
-    width: 20%;
-    height: 100%;
-    padding-top: 25px;
+    padding-top: 3%;
     display: flex;
     flex-direction: column;
-    line-height: 230%;
+    line-height: 200%;
+    height: 35%;
+    flex-grow: 1;
 
     a {
       text-decoration: none;
       color: #fff;
+      font-size: 12px;
     }
   }
 
   .paginasFooter {
-    width: 20%;
-    height: 100%;
-    padding-top: 25px;
+    padding-top: 3%;
     display: flex;
     flex-direction: column;
-    line-height: 230%;
+    line-height: 200%;
+    flex-grow:4;
+    height: 35%;
 
     a {
       text-decoration: none;
       color: #fff;
+      font-size: 12px;
     }
   }
+
+  hr{
+    margin-top: 2%;
+    width: 85%;
+    height: 0.1%;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.75), rgb(255, 255, 255), rgba(0, 0, 0, 0.75));
+    opacity: 0.2;
+  }
+  p{
+    width: 24%;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    line-height: 150%;
+  }
+
+
 }

@@ -1,33 +1,33 @@
 .footer {
-  height: 250px;
+  height: 350px;
   width: 100vw;
   background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
+  -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column wrap;
-          flex-direction: column wrap;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .footer .logoImg {
-  width: 20%;
-  height: 100%;
-  padding-top: 25px;
+  height: 35%;
+  padding-top: 3%;
+  padding-left: 5%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .footer .logoImg img {
-  height: 70px;
+  height: 50px;
 }
 
 .footer .sobreFooter {
-  width: 20%;
-  height: 100%;
-  padding-top: 25px;
+  padding-top: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -35,18 +35,21 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  line-height: 230%;
+  line-height: 200%;
+  height: 35%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
 }
 
 .footer .sobreFooter a {
   text-decoration: none;
   color: #fff;
+  font-size: 12px;
 }
 
 .footer .paginasFooter {
-  width: 20%;
-  height: 100%;
-  padding-top: 25px;
+  padding-top: 3%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -54,11 +57,33 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  line-height: 230%;
+  line-height: 200%;
+  -webkit-box-flex: 4;
+      -ms-flex-positive: 4;
+          flex-grow: 4;
+  height: 35%;
 }
 
 .footer .paginasFooter a {
   text-decoration: none;
   color: #fff;
+  font-size: 12px;
+}
+
+.footer hr {
+  margin-top: 2%;
+  width: 85%;
+  height: 0.1%;
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.75)), color-stop(white), to(rgba(0, 0, 0, 0.75)));
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.75), white, rgba(0, 0, 0, 0.75));
+  opacity: 0.2;
+}
+
+.footer p {
+  width: 24%;
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  line-height: 150%;
 }
 /*# sourceMappingURL=footer.css.map */
