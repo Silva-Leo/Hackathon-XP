@@ -25,7 +25,6 @@ function App() {
             <Route path="" element={<Home />} />
             {/* <Route path="/acompanhar" element={<Acompanhar />} />
             <Route path="/historico" element={<Historico />} /> */}
-
           </Routes>
         </Layout>
       </BrowserRouter>
