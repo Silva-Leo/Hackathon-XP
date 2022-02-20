@@ -1,0 +1,32 @@
+@import "../../Styles/global.scss";
+
+header {
+    display: flex;
+    background-color: $blackScale1;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.logoImg {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+#navBarLista {
+    display: flex;
+    color: white;
+    list-style-type: none;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    padding: 0;
+    margin-right: 35%;
+
+    li {
+        margin-right: 50px;
+    }
+}
