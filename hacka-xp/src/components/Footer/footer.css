@@ -11,6 +11,8 @@
           flex-flow: row wrap;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+  position: absolute;
+  bottom: 0;
 }
 
 .footer .logoImg {
