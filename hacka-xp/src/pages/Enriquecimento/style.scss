@@ -1,5 +1,36 @@
 @import "../../Styles/global.scss";
 
 .container{
-    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    #titulo{
+        @include TextH3();
+    
+    }
+
+    #sub-titulo{
+        @include TextH4();
+    }
+
+    #paragrafo{
+        @include TextParagraf();
+    }
+
+    hr{
+        margin-top: 2%;
+        width: 85%;
+        height: 0.1%;
+        background-image: linear-gradient(to right,rgba(0, 0, 0, 0.75), rgb(255, 255, 255), rgba(0, 0, 0, 0.75));
+        opacity: 0.2;
+      }
+
+    img{
+        width: 80%;
+        margin-top: 5%;
+    }
+
+   
+
 }

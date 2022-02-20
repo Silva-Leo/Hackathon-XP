@@ -3,10 +3,10 @@ import Stack from '@mui/material/Stack';
 import Button from '@mui/material/Button';
 import "./botao.scss"
 
-export default function BasicButtons() {
+export default function BasicButton({children}) {
   return (
     <Stack direction="row">
-      <Button className='outlined' variant="outlined">Clique aqui</Button>
+      <Button className='outlined' variant="outlined">{children}</Button>
     </Stack>
   );
 }
