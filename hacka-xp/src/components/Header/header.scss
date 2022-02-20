@@ -1,0 +1,69 @@
+@import "../../Styles/global.scss";
+
+header {
+    display: flex;
+    background-color: $blackScale1;
+    width: 100%;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.logoImg {
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 20px;
+}
+
+#navBarLista {
+    display: flex;
+    color: $blackScale10;
+    list-style-type: none;
+    flex-flow: row wrap;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: flex-end;
+    padding: 0;
+
+    li {
+        margin-right: 80px;
+    }
+}
+
+.avatar {
+    display: flex;
+    align-items: center;
+    img {
+        width: 35px;
+        height: 35px;
+        border-radius: 90%;
+    }
+
+    a {
+        text-decoration: none;
+        color: $blackScale10;
+        margin-right: 20px;
+    }
+}
+
+.follow {
+    display: flex;
+    align-items: center;
+    a {
+        text-decoration: none;
+        color: $blackScale10;
+    }
+}
+
+.arrow {
+    display: flex;
+    padding: 06px;
+    margin-left: 15px;
+    box-shadow: 1px -1px 0 1px $yellowScale1 inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(315deg);
+}
+
+
