@@ -10,7 +10,7 @@ export default function Header() {
     return (
         <header>
             <div className='logoImg'>
-                <img src={HeaderLogo} alt='Header Logo'></img>
+                <Link to="/"><img src={HeaderLogo} alt='Header Logo'></img></Link>
             </div>
 
             <nav id='navBarLista'>
