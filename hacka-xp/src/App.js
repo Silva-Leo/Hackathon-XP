@@ -19,12 +19,9 @@ function App() {
           <Routes>
             <Route path="/enriquecer" element={<Enriquecer />} />
             <Route path="/descobrir" element={<Descobrir />} />
-            <Route path="" element={<Home />} />
+            <Route path="/" element={<Home />} />
             <Route path="/acompanhar" element={<Acompanhar />} />    
-           {/* 
-            <Route path="" element={<Home />} />
-            {/* <Route path="/acompanhar" element={<Acompanhar />} />
-            <Route path="/historico" element={<Historico />} /> */}
+            {/* <Route path="/historico" element={<Historico />} />  */}
           </Routes>
         </Layout>
       </BrowserRouter>
