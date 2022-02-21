@@ -70,3 +70,54 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+# Backend :computer:
+
+
+
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
+
+
+
+## Python 3.7.9
+
+As APIS foram consumidas atráves de scripts em Python.
+
+![image-20220220214430873](![image](https://user-images.githubusercontent.com/29557513/154873137-3493e280-95ef-4446-9472-7ce154e0e318.png))
+
+
+
+## Django 3.2.12
+
+No diretório do prjeto instale as dependências do projeto:
+
+##### `pip install -r requeriments.txt`
+
+
+
+Rode a aplicação:
+
+##### `python manage.py runserver`
+
+
+
+No browser você poderá ver os dados das APIs com as rotas:
+
+##### `127.0.0.1:8000/user-json/`
+
+##### `127.0.0.1:8000/bank-json/`
+
+
+
+![image-20220220214659642](![image](https://user-images.githubusercontent.com/29557513/154873166-5735efef-f173-4ce1-8b33-f6e930bb38cb.png)
+
+
+
+As informações  das APIs foramm consumidas com a finalidade de alimentar o banco de dados Sqlite e o Front-End com React e Django.
+
+Com isso iríamos hospedar a aplicação no Heroku para testes.
+
+
