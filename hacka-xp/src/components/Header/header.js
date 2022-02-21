@@ -18,7 +18,6 @@ export default function Header() {
                 <li className='follow'><Link to="/descobrir">Descobrir</Link></li>
                 <li className='follow'><Link to="/acompanhar">Acompanhar</Link><div className='arrow'></div> 
                 </li>
-                <li className='follow'><Link to="/historico">Histórico</Link></li>
                 <li  className='avatar'>
                     <a href='#'>Laura Assis</a>
                     <img src={WomanAvatar} alt='avatar'></img> 
