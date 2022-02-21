@@ -121,3 +121,15 @@ As informações  das APIs foramm consumidas com a finalidade de alimentar o ban
 Com isso iríamos hospedar a aplicação no Heroku para testes.
 
 
+
+
+# Problemas e Resoluções ao longo do Projeto
+
+ - Tivemos problemas ao consumir as APIs devido ao bloqueio dos headers que não foram autorizados. Acabamos perdendo muito tempo para poder solucionar.
+   Além de não estarem todas padronizadas. Por exemplo:
+  
+  GET users ´--url 'https://openapi.xpi.com.br/openbanking/users?limi='´
+  GET banks ´--url 'https://openapi.xpi.com.br/openbanking/users?limi'´
+
+
+- Como não tínhamos no time um profissional de back-end, foi usado o conhecimento básico de django para poder levar os dados para o front-end.
