@@ -2,10 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
     padding: 0px;
 
     width: 100%;
-    height: 1000px;
+    height: 800px;
     left: 10%;
     top: 830px;
 
@@ -13,5 +15,6 @@
 
     img {
         width: 100%;
+        height: 100%;
     }
 }

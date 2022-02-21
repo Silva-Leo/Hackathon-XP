@@ -1,6 +1,7 @@
 import React from 'react';
 
-import Dots from '../../../assets/img/home/dots.png'
+import Dots from '../../../assets/img/home/dots.png';
+import Graphic from '../../../assets/img/home/graphLines.png'
 
 import './graph.scss'
 export default function Graph() {
@@ -28,6 +29,10 @@ export default function Graph() {
                             <img src={Dots}></img>
                         </div>
                     </div>
+                </div>
+
+                <div className='graph'>
+                    <img src={Graphic}></img>
                 </div>
             </div>
         </>
