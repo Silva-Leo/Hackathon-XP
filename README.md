@@ -82,7 +82,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 
-## ``Python 3.7.9``
+## Python 3.7.9
 
 As APIS foram consumidas atráves de scripts em Python.
 
