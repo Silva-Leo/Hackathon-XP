@@ -19,9 +19,6 @@ O Frontend foi desenvolvido em React.
 
 # Backend :computer:
 
-![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white)![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)![Heroku](https://img.shields.io/badge/heroku-%23430098.svg?style=for-the-badge&logo=heroku&logoColor=white)
-
-
 
 ## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="35px" width="35px"/> Python 3.7.9
 
@@ -31,7 +28,8 @@ As APIS foram consumidas atráves de scripts em Python.
 
 
 
-## Django 3.2.12
+## ![pnghut_django-web-development-framework-python-software-logo](https://user-images.githubusercontent.com/29557513/154881856-4dd15f63-ffc6-4940-a175-1b08dfd01aee.png)
+ Django 3.2.12
 
 No diretório do projeto instale as dependências do projeto:
 
