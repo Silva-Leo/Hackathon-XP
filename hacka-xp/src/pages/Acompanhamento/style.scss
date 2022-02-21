@@ -1,11 +1,16 @@
 @import "../../Styles/global.scss";
 
 .title {
-    margin-top: 2%;
+    margin-top: 5%;
     text-align: center;
 
     .subtitle {
         margin-top: 1%;
+        @include TextH4;
+        font-weight: lighter;
+        font-size: 18px;
+        letter-spacing: 0.1%;
+        margin-bottom: 5%;    
     }
 }
 

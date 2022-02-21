@@ -21,7 +21,7 @@ export default function Enriquecimento() {
                 </Stack>
             </div>
 
-            <input type="text" name="name" id="name" class="form-control" placeholder="Like: Mohammad"required/>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Escreva aqui"required/>
            
             <ButtonBasic className="outlined">Enriqueça seus dados</ButtonBasic>
             <hr/>
