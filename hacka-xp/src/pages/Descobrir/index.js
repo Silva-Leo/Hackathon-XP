@@ -20,6 +20,8 @@ export default function Descobrir() {
     };
     return (
         <>
+            {/* Com a junção de dados da API thinkData e a de OpenBank podemos encontrar novos possiveis clientes para 
+             o acessor podendo adicionar varios filtros para que encontre o cliente que encaixe no seu perfil */}
             <head className='container'>
                 <p id='tituloDescobrir'>Descoberta de clientes</p>
 

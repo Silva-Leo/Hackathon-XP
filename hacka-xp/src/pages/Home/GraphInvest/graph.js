@@ -7,6 +7,7 @@ import './graph.scss'
 export default function Graph() {
     return (
         <>
+        {/* Geraria um gráfico com os tipos de investimento que compões a carteira de seus clientes atráves da api de OpenBank*/}
             <div className='graphContainer'>
                 <div className='legendaContainer'>
                     <p>Saldo por Investimento</p>

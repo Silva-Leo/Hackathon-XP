@@ -13,6 +13,9 @@ import './style.scss';
 export default function Acompanhar() {
     return (
         <>
+            {/* Atráves da Api de OpenBank iriamos compilar os dados do clientes do acessor
+            e trazer para ele os resultados gerais de seus clientes, além de poder consultar individulmente
+            o perfil do  cliente e seus resultados */}
             <main>
                 <div className='title'>
                     <h1 id='titleText'>Acompanhamento de clientes</h1>
