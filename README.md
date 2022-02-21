@@ -28,8 +28,7 @@ As APIS foram consumidas atráves de scripts em Python.
 
 
 
-## ![pnghut_django-web-development-framework-python-software-logo](https://user-images.githubusercontent.com/29557513/154881856-4dd15f63-ffc6-4940-a175-1b08dfd01aee.png)
- Django 3.2.12
+## Django 3.2.12
 
 No diretório do projeto instale as dependências do projeto:
 
