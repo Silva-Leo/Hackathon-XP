@@ -1,6 +1,4 @@
-# Hackathon-XP | Open2B - Localizando investimentos
-
-# Frontend :computer:
+# Hackathon-XP | <img src="https://raw.githubusercontent.com/Silva-Leo/Hackathon-XP/1af13ca59ad5e38d91371cdd5445d6f27fa20603/hacka-xp/src/assets/img/HeaderLogo.svg" height="35px" width="35px"> Open2B - Localizando investimentos 
 
 ## 🔥 Instalação e execução
 
@@ -9,6 +7,9 @@
 3. Rode `yarn` dentro da pasta `frontend` para instalar as dependências;
 4. Na pasta `frontend` execute `yarn start` pra iniciar o servidor de desenvolvimento;
 
+# Frontend :computer:
+
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="35px" width="35px"/> React
 
 # Backend :computer:
 
@@ -18,7 +19,7 @@
 
 
 
-## Python 3.7.9
+## <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="35px" width="35px"/> Python 3.7.9
 
 As APIS foram consumidas atráves de scripts em Python.
 
