@@ -129,6 +129,7 @@ Com isso iríamos hospedar a aplicação no Heroku para testes.
    Além de não estarem todas padronizadas. Por exemplo:
   
   GET users ´--url 'https://openapi.xpi.com.br/openbanking/users?limi='´
+  
   GET banks ´--url 'https://openapi.xpi.com.br/openbanking/users?limi'´
 
 
