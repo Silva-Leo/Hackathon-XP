@@ -86,7 +86,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 As APIS foram consumidas atráves de scripts em Python.
 
-![image-20220220214430873](![image](https://user-images.githubusercontent.com/29557513/154873137-3493e280-95ef-4446-9472-7ce154e0e318.png))
+![image-20220220214430873](![image](https://user-images.githubusercontent.com/29557513/154873137-3493e280-95ef-4446-9472-7ce154e0e318.png)
 
 
 
