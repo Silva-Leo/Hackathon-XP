@@ -33,7 +33,7 @@ As APIS foram consumidas atráves de scripts em Python.
 
 ## Django 3.2.12
 
-No diretório do prjeto instale as dependências do projeto:
+No diretório do projeto instale as dependências do projeto:
 
 ##### `pip install -r requeriments.txt`
 
@@ -57,7 +57,7 @@ No browser você poderá ver os dados das APIs com as rotas:
 
 
 
-As informações  das APIs foramm consumidas com a finalidade de alimentar o banco de dados Sqlite e o Front-End com React e Django.
+As informações das APIs foramm consumidas com a finalidade de alimentar o banco de dados Sqlite e o Front-End com React e Django.
 
 Com isso iríamos hospedar a aplicação no Heroku para testes.
 
