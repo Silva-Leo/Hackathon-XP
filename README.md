@@ -1,5 +1,9 @@
 # Hackathon-XP | <img src="https://raw.githubusercontent.com/Silva-Leo/Hackathon-XP/1af13ca59ad5e38d91371cdd5445d6f27fa20603/hacka-xp/src/assets/img/HeaderLogo.svg" height="35px" width="35px"> Open2B - Localizando investimentos 
 
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/87882835/155593966-4aa41898-7a54-448c-92bd-33d184e9133f.png" height="350px" width="600px">
+</div>
+
 ## 🔥 Instalação e execução
 
 1. Faça um clone desse repositório;
@@ -24,9 +28,9 @@ O Frontend foi desenvolvido em React.
 
 As APIS foram consumidas atráves de scripts em Python.
 
-![image](https://user-images.githubusercontent.com/29557513/154873137-3493e280-95ef-4446-9472-7ce154e0e318.png)
-
-
+<div align="center">
+ <img src="https://user-images.githubusercontent.com/29557513/154873137-3493e280-95ef-4446-9472-7ce154e0e318.png" height="570px" width="450px">
+</div>
 
 ## Django 3.2.12
 
